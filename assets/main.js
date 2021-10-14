@@ -1,8 +1,8 @@
 
 //chiedi all'utente la sua email
 /*prompt*/
-prompt("inserisci latua email:")
-
+prompt("inserisci latua email")
+console.log(ciao);
 //controlla che l'email sia nella listadi chi puo accedere
 /**if */
 /**for */
