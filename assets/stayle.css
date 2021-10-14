@@ -1,0 +1,43 @@
+
+//chiedi all'utente la sua email
+/*prompt
+const emailInserita = prompt("inserisci latua email")
+*/
+//controlla che l'email sia nella listadi chi puo accedere
+/** array */
+const lista = ["rosso@gmail.it", "verde@gmai.it", "giallo@gmail.it", "blu@gmai.it"];
+let trovato = false;
+/**for */
+for (let index = 0; index < lista.length; index++) {
+    const element = lista[index];
+    console.log(element);
+
+    /**if */ // questa email è uguale a quella dell'utente?
+    if (element == emailInserita) {
+        console.log("trovato");
+        trovato = true;
+    } else {
+        console.log("non trovato");
+
+    }
+    //ho trovato la emalil !
+
+    //ho trovato la email , mi conservo un dato TRUE
+
+
+
+}
+console.log(trovato);
+
+
+// if" se l'email è stata trovata 
+// allora l'utente puo passare
+//altrimenti non puoi entrare
+if (trovato == true) {
+    console.log("puoi entrare");
+} else {
+    console.log("non puoi entrare");
+}
+
+//stampa un messaggio appropriatosull'esito del controllo
+/**prompt */
