@@ -1,27 +1,23 @@
 
-//chiedi all'utente la sua email
-/*prompt*/
-prompt("inserisci latua email")
-console.log(ciao);
-//controlla che l'email sia nella listadi chi puo accedere
-/**if */
-/**for */
-/** array */
-
-//stampa un messaggio appropriatosull'esito del controllo
-/**prompt */
 
 
 
 
 
-
-
-
-
+const utente = Math.floor(Math.random() * 6);
+console.log(utente);
+const computer = Math.floor(Math.random() * 6);
+console.log(computer);
 //gernera un numero random da 1 a 6 sia per il giocatore che per il coputer
-/*Math.floor(Math.random() * 6);*/
+/**/
 
 
 //stabilisci il vincitore in base al punteggio più alto
 /*if */
+if (utente == computer) {
+    console.log("pareggio");
+} else if (utente < computer) {
+    console.log("il vincitore è il computer");
+} else {
+    console.log("il vincitore è il giocatore");
+}
